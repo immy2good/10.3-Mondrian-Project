@@ -36,7 +36,7 @@
     grid-template-columns: 320px 198px 153px 50px;
     grid-template-rows: 414px 130px 155px 22px;
     gap: 9px; 
-    background-color: #232629;
+    background-color: #000;
 
   }
 
@@ -47,18 +47,21 @@
 
   .white2 {
     background-color: #F0F1EC;
-    grid-area: 2 / 1 / 4 / 2;
+    /* grid-area: 2 / 1 / 4 / 2; */
+    grid-row: span 2;
     
   }
 
  .white1 {
     background-color: #F0F1EC;
-    grid-area: 1 / 2 / 2 / 6;
+    /* grid-area: 1 / 2 / 2 / 6; */
+    grid-column: span 3;
   }
 
   .white3 {
     background-color: #F0F1EC;
     grid-area: 2 / 2 / 4 / 4;
+    /* grid-row: span 2 / span 5; */
   }
 
   .white4 {
@@ -83,7 +86,9 @@
   }
   .blue {
     background-color: #004592;
-    grid-area: 2 / 4 / 3/ 5;
+    grid-area: 2 / 4 / 3 / 5;
+    border-bottom: 10px solid #000;
+    
   }
 
 
